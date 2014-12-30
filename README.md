@@ -11,11 +11,12 @@
 setup
 
 ```
-$ fig run web bash -l -c 'bundle exec rake db:create db:migrate'
+$ fig build
 ```
 
 run app server
 
 ```
 $ fig up
+$ fig run web bash -l -c 'bundle exec rake db:create db:migrate'
 ```
