@@ -1,0 +1,3 @@
+[submodule "sample_app_rails_4"]
+	path = sample_app_rails_4
+	url = git@github.com:yucchiy/sample_app_rails_4.git
